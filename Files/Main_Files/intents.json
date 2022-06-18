@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello! thanks for asking.", "Hi! , Good to see you again!", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day!", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure!"],
+         "context": [""]
+        },
+        {"tag": "howforbot",
+        "patterns": ["How are you?", "Are you Fine?", "How are you doing?","What's Up"],
+        "responses": ["I am doing Great!", "I am Pretty Good", "It has been a Rough Week"],
+        "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info.", "Not sure I understand."],
+         "context": [""]
+        },
+        {"tag": "meaning",
+         "patterns": ["What should I understand by kindness?", "What does kindness mean?", "What is the meaning of kindness?", "What is meant by kindness?", "What is kindness?", "What are you referring to by kindness?", "Can you please clarify kindness for me?", "Can you please explain the meaning of kindness?", "What does kindness mean to you?", "Please explain kindness", "I do not know what is kindness", "What do you mean by kindness?", ""],
+         "responses": ["Kindness is more than being nice. Kindness is love , love is kind. Kindness is grace", "Kindness is the quality of being friendly, generous, and considerate", "Kindness is all the different ways both big and small we express care, concern, and consideration for ourselves and those with whom we share the world."],
+         "context": [""]
+        },
+        {"tag": "importance",
+         "patterns": ["What is the importance of kindness?", "What do you mean by importance of kindness?", "Can you please explain the importance of kindness?", "Why is kindness important?", "Why do I need to be kind?", "What is the need to express kindness?", "What is the need of kindness?", "Why is it important to be kind?", "Why should I be kind?", "Why do I need to express kindness?"],
+         "responses": ["When we practice kindness either to other people or towards ourselves we can experience positive mental and physical changes through lowering stress levels and increasing the body's production of feel-good hormones such as dopamine, oxytocin and serotonin.", "When we get a small but kind compliment from someone, it transforms us into a positive state. We feel good about ourselves. We smile more, we are in a positive mood, our productivity increases, and we also feel the need to pass it on.", "It is important to be kind because it makes one feel good about oneself. When you do things for other people and help them with anything, it makes you feel warm and that you have accomplished something. Moreover, you also get respect in return."],
+         "context": [""]
+        },
+        {"tag": "feelings",
+         "patterns": ["How does being kind to someone make you feel?", "How will I feel after being kind to someone?", "How do you feel after being kind?", "How do you feel after expressing kindness?", "What is the feeling after expressing kindness?", "What is the feeling after being kind?", "What do you feel after being kind to someone?", "What do you feel after expressing kindness?", "What do you feel after being kind?", "What is the feeling after being kind to someone?"],
+         "responses": ["It boosts your positive emotions." , "It reduces anxiety and depression.", " It lowers your stress levels.", "It creates a positive feedback loop."],
+         "context": [""]
+        },
+        {"tag": "how",
+         "patterns": ["How can one be kind?", "How can I be kind to someone?", "How can I show kindness to someone?", "How can I show kindness to others?", "How can I learn to be kind?", "I want to learn how to be kind", "I want to know the ways in which I can be kind?", "What are the ways to become a kind person?", "What are the ways to learn how to be kind?", "How can I be kind?"],
+         "responses": ["Always remember , Don't be kind for the sake of getting what you want. Care for others genuinely", "Learn kindness from others.", "Be Kind to yourself first and then Make a habit of focusing on kindness.", "Cultivate kindness for the good of your own health."],
+         "context": [""]
+        },
+        {"tag": "encourage",
+         "patterns": ["How can I cheer people to be kind?", "How can I cheer people to express kindness?", "How can you cheer people to be kind?", "How can you cheer people to express kindness?", "I want to cheer people to be kind", "I want to cheer people to express kindess", "How can I encourage people to be kind to others?", "How can I cheer people to be kind to others?", "How can I encourage people to be kind to other people?", "How can I cheer people to be kind to other people?", "How can I encourage others to be kind?", "How can you encourage others to be kind?", "How can you encourage people to express kindness?", "How can I encourage people to express kindness?", "I want to encourage people to be kind", "I want to encourage people to express kindness"],
+         "responses": ["Pay attention to whether you are noticing the faults of others or their acts of kindness. Adjust your focus to align with the values you want to teach.", "Help all those you can. When you notice others who seem to be behaving in a hurtful way, take a breath and wish them well instead of judging them.", "As you express your appreciation to others, be specific about what they did and how it helped you. Leave letters around the house, on pillows, in lunchboxes, and in the car."],
+         "context": [""]
+        },
+        {"tag": "change",
+         "patterns": ["Do you believe kindness can change the world?", "Do you think kindness can change the world?", "Can the world change by kindness?", "Can we change the world by kindness?", "Can we change the world by being kind?", "Can the world change by being kind?", "Do you believe being kind can change the world?", "Do you think being kind can change the world?", "Will kindness change the world?", "Will being kind change the world", "Will kindness be able to change the world?", "Will being kind be able to change the world?", "Will kindness be enough to change the world?", "Will being kind be enough to change the world?", "Can expressing kindness have an impact on the people?"],
+         "responses": ["A kind heart can act strongly against all the woes in the world like misunderstanding, mistrust and hostility. Kindness acts very strongly against all these ill habits and can help to make this world a better place to live.", "Our entire world revolves around our own mental awareness. So One single act of unconditional, unplanned, genuine kindness can certainly change our world."],
+         "context": [""]
+        },
+        {"tag": "difficult",
+         "patterns": ["Is being a kind person troublesome?", "Is it not easy to be a kind person?", "Is being a kind person easier said than done?", "Is it difficult to be kind?", "Is it difficult to express kindness?", "Is it effortful to be a kind person?", "Would it be difficult to be kind?", "Would it be difficult to express kindness?", "Is being a kind person hard?", "Is being a kind person difficult?", "Is it difficult to be kind when someone is watching?", "Is being a kind person tough?", "Is it difficult to express kindness when someone is watching?", "Is it hard to be kind?", "Is it hard to express kindness?", "Would it be hard to be kind?", "Would it be hard to express kindness?", "Is it hard to be kind when someone is watching?", "Is it hard to express kindness when someone is watching?", "Is it tough to be kind?", "Is it tough to express kindness?", "Would it be tough to be kind?", "Would it be tough to express kindness?", "Is it tough to be kind when someone is watching?", "Is it tough to express kindness when someone is watching?", "Is it difficult to be a kind person?", "Is it hard to be a kind person?", "Is it tough to be a kind person?", "Is being a kind person back breaking?", "Is it challenging to be a kind person?", "Is being a kind person challenging?"],
+         "responses": ["Yes , being kind is hard at first , but only till a few days because slowly you will get a habit of being kind . You have to face many distractions , Fear and judgement of others . This will make you exhausted but you shall continue as you are doing something which is great for humanity."],
+         "context": [""]
+        }
+   ]
+}

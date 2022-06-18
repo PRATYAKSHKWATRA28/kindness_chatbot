@@ -1,0 +1,40 @@
+|How to use The Kindness Chatbot|
+
+Kindness Chatbot by Pratyaksh Kwatra
+
+Functioning -: 1) Info Button --> Can be used to seek information regarding the Functioning of the Chatbot
+	       2) Exit Button --> Can be used to Quit the program
+	       3) Send Button --> Can be used to send the messages typed in the Text Box . The text would then be used as an input and then You recieve the reply from bot
+	       4) Text Box --> Can be used to type the messages you want to send to the bot for communication with the bot
+	       5) Chat History --> Can be used to see the messages sent by you or recieved from the Bot
+
+KeyBind -: 1) Info Button --> You can use the Shift + I Key Combination on your keyboard to Quickly access the info File .
+	   2) Exit Button --> You can use the Esc Key on your keyboard to Quit the program
+	   3) Send Button --> You can use the Enter/Return Key on your keyboard to Send the message to the Bot
+
+Sentences you can try to get your communication with the Bot Started -: 
+1) Hello
+2) Hi There!
+3) Thanks
+4) That's Helpful
+5) What does kindness mean?
+6) What is meant by Kindness?
+7) What is the importance of kindness?
+8) Why is kindness important?
+9) How does being kind to someone make you feel?
+10) How will I feel after being kind to someone?
+11) How can one be kind?
+12) How can i be Kind to someone?
+13) How can I cheer people to be kind?
+14) How can I encourage people to be kind to other people?
+15) Do you think being kind can change the world?
+16) Do you believe kindness can change the world?
+17) Is being a kind person troublesome?
+18) Is being a kind person easier said than done?
+
+--> Thank you for Reading the Information Guide . Now you can continue using The Program as you now have a better Understanding of the Functioning of The Chatbot
+--> I Hope you have also tried some of the above mentioned Sentences and have recieved an Accurate Result.
+--> You can report errors by mailing them to me at pratyakshkwatra@gmail.com
+--> Quick Tip -: Using the KeyBinds will make your experience Faster , Smoother and more effecient
+
+Kindness Chatbot by Pratyaksh Kwatra
