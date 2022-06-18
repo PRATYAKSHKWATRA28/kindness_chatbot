@@ -18,7 +18,7 @@ words=[]
 classes=[]
 documents=[]
 ignore_words=['?','!','.']
-data_file = open('Files\Main_Files\intents.json').read()
+data_file = open('.\Main_Files\intents.json').read()
 intents = json.loads(data_file)
 
 for intent in intents['intents']:
@@ -41,8 +41,8 @@ words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words
 words = list(set(words))
 classes = list(set(classes))
 #print(words)
-pickle.dump(words, open('Files\Other_Files\words.pkl', 'wb'))
-pickle.dump(classes, open('Files\Other_Files\classes.pkl', 'wb'))
+pickle.dump(words, open('.\Other_Files\words.pkl', 'wb'))
+pickle.dump(classes, open('.\Other_Files\classes.pkl', 'wb'))
 
 training = []
 output_empty = [0]*len(classes)
@@ -85,7 +85,7 @@ sgd = tf.keras.optimizers.SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy',optimizer=sgd, metrics=['accuracy'])
 
 mfit = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
-model.save('Files\Other_Files\chatbot_model.h5', mfit)
+model.save('.\Other_Files\chatbot_model.h5', mfit)
 
 print("--------------------------------------------")
 print('Completed Training')

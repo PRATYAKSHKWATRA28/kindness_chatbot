@@ -23,10 +23,10 @@ import os
 #	engine.say(word)
 #	engine.runAndWait()
 
-intents = json.loads(open('E:\Programming\Python_Projects_Main\Chatbot\Files\Main_Files\intents.json').read())
-model = load_model('E:\Programming\Python_Projects_Main\Chatbot\Files\Other_Files\chatbot_model.h5')
-words = pickle.load(open('E:\Programming\Python_Projects_Main\Chatbot\Files\Other_Files\words.pkl', 'rb'))
-classes = pickle.load(open('E:\Programming\Python_Projects_Main\Chatbot\Files\Other_Files\classes.pkl', 'rb'))
+intents = json.loads(open('.\Main_Files\intents.json').read())
+model = load_model('.\Other_Files\chatbot_model.h5')
+words = pickle.load(open('.\Other_Files\words.pkl', 'rb'))
+classes = pickle.load(open('.\Other_Files\classes.pkl', 'rb'))
 
 def bow(sentence):
 	sentence_words = nltk.word_tokenize(sentence)
@@ -79,12 +79,12 @@ def send():
 		#speak(res)
 
 def info_open():
-	os.system("notepad.exe E:\Programming\Python_Projects_Main\Chatbot\Files\Extra\Documents\info.txt")
+	os.system("notepad.exe .\Extra\Documents\info.txt")
 
 
 base = Tk()
 base.title("Kindness Chatbot")
-base.iconbitmap("E:\Programming\Python_Projects_Main\Chatbot\Files\Extra\Images\smiling-face.ico")
+base.iconbitmap(".\Extra\Images\smiling-face.ico")
 base.geometry("400x500")
 base.resizable(width=False, height=False)
 
